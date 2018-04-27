@@ -1,0 +1,105 @@
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+
+  opacity: 0.7;
+
+}
+
+header img {
+	filter: brightness(105%);
+	filter: sepia(10%);
+}
+
+li {
+	list-style: none;
+}
+
+body, h1,h2,h3,h4,h5,h6 {
+
+	font-family: "Museo Sans Rounded", sans-serif
+}
+
+.w3-row-padding img {
+
+	margin-bottom: 5px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+
+	width: 120px;
+	background: #222;
+	float: left;	
+
+}
+
+#myNavbar a i {
+	
+	float: left;
+}
+
+.w3-dark-grey:hover {
+
+	opacity: 1.5;
+}
+
+.w3-bar-item i {
+float: left;
+
+}
+
+a .w3-bar-item w3-button {
+
+}
+nav a {
+	align
+}
+
+.w3-bar-item w3-button {
+	float: left;
+}
+
+.fa fa-user w3-xxlarge {
+	margin-left: ;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.w3-pink {
+	filter: brightness(80%);
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+
+	margin-left: 120px
+
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
