@@ -13,6 +13,21 @@
 
 }
 
+.resume {
+	padding: 10px;	
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 45%;
+  margin-right: 45%;
+  background: white;
+
+} 
+
+
+.resume:hover {
+	opacity: 0.7;
+}
 
 header h1 {
 	margin-right: 50%;
@@ -39,16 +54,12 @@ header img {
 	filter: sepia(10%);
 	opacity: 1;
   	display: block;
-  	width: 100%;
-  	height: auto;
+  	width: 50%;
+  	height: 25%;
   	transition: .5s ease;
   	backface-visibility: hidden;
 }
 
-header .picture {
-    position: relative;
-    width: 50%;
-}
 
 #photos .picture {
 
@@ -85,6 +96,8 @@ header .picture {
 
 li {
 	list-style: none;
+	text-align: justify;
+	word-spacing: normal;
 }
 
 body, h1,h2,h3,h4,h5,h6 {
@@ -166,5 +179,7 @@ ul:hover {
 	margin-left: 120px
 
 }
+
+
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
