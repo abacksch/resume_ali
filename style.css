@@ -13,20 +13,27 @@
 
 }
 
+footer .fa:hover {
+	transform: scale(1.2); 
+}
+
+
 .resume {
-	padding: 10px;	
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
   text-decoration: none;
-  margin-left: 45%;
-  margin-right: 45%;
-  background: white;
+  background: black;
+  display: block;
+
 
 } 
 
 
 .resume:hover {
 	opacity: 0.7;
+	-ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
 }
 
 header h1 {
@@ -55,9 +62,13 @@ header img {
 	opacity: 1;
   	display: block;
   	width: 50%;
-  	height: 25%;
+  	height: 15%;
   	transition: .5s ease;
   	backface-visibility: hidden;
+  	border-style: ridge; 
+  	border-radius: 10px;
+  	border-color: black;
+  	box-shadow: 15px 15px 20px #434343; 
 }
 
 
@@ -65,6 +76,10 @@ header img {
 
 	position: relative;
 	width: 100%;
+}
+
+#photos .picture:hover img {
+	filter: blur(2px);
 }
 
 .middle {
@@ -79,7 +94,8 @@ header img {
 }
 
 .picture:hover .image {
-  opacity: 0.3;
+  opacity: 0.5;
+
 }
 
 .picture:hover .middle {
@@ -129,7 +145,7 @@ body, h1,h2,h3,h4,h5,h6 {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.2); 
-    background-color: grey;
+    color: grey;
 }
 
 .w3-bar-item i {
@@ -171,6 +187,14 @@ ul:hover {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.w3-section {
+	font-size: 20px;
+}
+
+.w3-section p:hover {
+	font-style: italic;
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
